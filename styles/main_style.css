@@ -77,6 +77,46 @@ li{
  	justify-content: center;
     padding: 20px;
 }
+#Menu li:nth-child(1) a img{
+	background: rgb(255, 99, 146);
+	transition: all 250ms ease-out;
+}
+#Menu li:nth-child(1) a img:hover{
+        background: rgb(204, 79, 118);
+        transition: all 250ms ease-out;
+    }
+#Menu li:nth-child(2) a img{
+	background: rgb(176, 255, 58);
+	transition: all 250ms ease-out;
+}
+#Menu li:nth-child(2) a img:hover{
+        background: rgb(121, 175, 40);
+        transition: all 250ms ease-out;
+}
+#Menu li:nth-child(3) a img{
+	background: rgb(0, 148, 255);
+	transition: all 250ms ease-out;
+}
+#Menu li:nth-child(3) a img:hover{
+        background: rgb(0, 113, 193);
+        transition: all 250ms ease-out;
+}
+#Menu li:nth-child(4) a img{
+	background: rgb(255, 185, 73);
+	transition: all 250ms ease-out;
+}
+#Menu li:nth-child(4) a img:hover{
+        background: rgb(193, 138, 56);
+        transition: all 250ms ease-out;
+}
+#Menu li:nth-child(5) a img{
+	background: rgb(0, 148, 255);
+	transition: all 250ms ease-out;
+}
+#Menu li:nth-child(5) a img:hover{
+        background: rgb(0, 113, 193);
+        transition: all 250ms ease-out;
+}
 /* Ajustes de la seccion Historia */
 #Historia{
     background-color: #FF6392;
