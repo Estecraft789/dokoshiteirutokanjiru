@@ -1,0 +1,138 @@
+/* Ajustes Generales */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    padding: 10px;
+    width: 200px;
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+section{
+    display: block;
+}
+
+#img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+li a img{
+    transition: ease-out 25ms;
+}
+h2{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+div{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul{
+    list-style-type: disc;
+}
+li{
+    display: list-item;
+    list-style: none;
+}
+/* Ajustes de la seccion Main*/
+#Main{
+    background-color: rgb(0, 238, 255);
+}
+#Main a{
+    width: 10px;
+}
+
+/* Ajustes de la seccion Menu */
+#Menu{
+    background-color: rgb(255, 255, 255);
+    padding: 0 10px 10px;
+}
+#Menu li{
+    box-sizing: border-box;
+    padding: 0px;
+    text-align: left;
+}
+#Menu ul{
+    display: flex;
+    flex-wrap: wrap;
+ 	justify-content: center;
+    padding: 20px;
+}
+/* Ajustes de la seccion Historia */
+#Historia{
+    background-color: #FF6392;
+    padding: 0 30px 40px;
+}
+#Historia div{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Ajustes de la seccion Personajes */
+#Personajes{
+    background-color: rgb(86, 221, 86);
+    padding: 0 30px 40px;
+}
+#Personajes ul{
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content:center;
+ 	justify-content:center;
+	padding:5px;
+}
+#Personajes div{
+    background-color: white;
+    text-align: center;
+}
+#Personajes li{
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: left;
+}
+#Personajes li p{
+    text-align: left;
+    padding-left: 30px;
+}
+#Personajes li{
+    width: 33.3%;
+}
+#Personajes h3{
+    padding-left: 30px;
+}
+/*Ajustes de la seccion Comic Frenetico*/
+#Comic{
+    background-color: rgb(0, 148, 255);
+    padding: 0 30px 40px;
+}
+
+/* Ajustes de la seccion Demo */
+#Demo{
+    background-color: rgb(255, 185, 73);
+    padding: 0 30px 40px;
+}
+
+/* Ajustes de la seccion Comprar */
+#Comprar{
+    background-color: rgb(255, 255, 255);
+    padding: 0 30px 40px;
+}
